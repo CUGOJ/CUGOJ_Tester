@@ -10,6 +10,16 @@ using TTransport transport = new TSocketTransport(host, port, new TConfiguration
 TProtocol protocol = new TBinaryProtocol(transport);
 var client = new CUGOJ.RPC.Gen.Services.Base.BaseService.Client(protocol);
 
-
-//TODO 写自己的测试代码
-Console.WriteLine((await client.Ping(new CUGOJ.RPC.Gen.Base.PingRequest(CommonTools.UnixMili()))).Timestamp);
+try
+{//TODO 写自己的测试代码
+    Console.WriteLine((await client.MulGetProblemInfo(new CUGOJ.RPC.Gen.Services.Base.MulGetProblemInfoRequest()
+    {
+        ProblemIDList = new List<long>() { 1, 2 },
+        IsGetProblemContent = true,
+        Base = RPCTools.NewBase()
+    })));
+}
+catch (Exception e)
+{
+    Console.WriteLine(e.Message);
+}
