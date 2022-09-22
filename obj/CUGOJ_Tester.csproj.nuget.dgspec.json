@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/root/src/CUGOJ/CUGOJ_Tester/CUGOJ_Tester.csproj": {}
+    "/root/Project/CUGOJ/CUGOJ_Tester/CUGOJ_Tester.csproj": {}
   },
   "projects": {
-    "/root/src/CUGOJ/CUGOJ_Tester/CUGOJ_Tester.csproj": {
+    "/root/Project/CUGOJ/CUGOJ_Tester/CUGOJ_Tester.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/root/src/CUGOJ/CUGOJ_Tester/CUGOJ_Tester.csproj",
+        "projectUniqueName": "/root/Project/CUGOJ/CUGOJ_Tester/CUGOJ_Tester.csproj",
         "projectName": "CUGOJ_Tester",
-        "projectPath": "/root/src/CUGOJ/CUGOJ_Tester/CUGOJ_Tester.csproj",
+        "projectPath": "/root/Project/CUGOJ/CUGOJ_Tester/CUGOJ_Tester.csproj",
         "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/root/src/CUGOJ/CUGOJ_Tester/obj/",
+        "outputPath": "/root/Project/CUGOJ/CUGOJ_Tester/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/root/.nuget/NuGet/NuGet.Config"
@@ -49,8 +49,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -59,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.109/sdk/6.0.109/RuntimeIdentifierGraph.json"
         }
       }
     }

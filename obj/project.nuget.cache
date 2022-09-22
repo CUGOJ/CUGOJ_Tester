@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ajKviKaLT4VQnTQSJXnem0zrTUh3seBP/2eYxGnXUcm4zVV2PyHaDwQzTSXRsDo6CgacIB8FEzPnoBdNxgmisA==",
+  "dgSpecHash": "9AuJQGO5QbOxVyHAU6NILCSfWL0dbCBh4fnA5njHjUnjEMlSSCO9zmKMS8j4Q24Aj83z4/0az1UZdEy7SS3ghQ==",
   "success": true,
-  "projectFilePath": "/root/src/CUGOJ/CUGOJ_Tester/CUGOJ_Tester.csproj",
+  "projectFilePath": "/root/Project/CUGOJ/CUGOJ_Tester/CUGOJ_Tester.csproj",
   "expectedPackageFiles": [
     "/root/.nuget/packages/apachethrift/0.16.0/apachethrift.0.16.0.nupkg.sha512",
     "/root/.nuget/packages/castle.core/5.1.0/castle.core.5.1.0.nupkg.sha512",

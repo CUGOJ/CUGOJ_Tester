@@ -13,7 +13,7 @@
             "program": "${workspaceFolder}/bin/Debug/net6.0/CUGOJ_Tester.dll",
             "args": [
                 // "1.15.93.80:18682"
-                "127.0.0.1:13579"
+                "127.0.0.1:18000"
             ],
             "cwd": "${workspaceFolder}",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
