@@ -90,13 +90,61 @@ try
     // req.Base.Extra["UserID"] = "Tester";
     // Console.WriteLine(await client.MulGetProblemInfo(req));
 
-    var req = new GetProblemListRequest();
-    req.Cursor = 100;
+    // var req = new GetProblemListRequest();
+    // req.Cursor = 100;
+    // req.Limit = 25;
+    // req.Base = RPCTools.NewRootBase();
+    // req.Base.Extra["ServiceID"] = "testService";
+    // req.Base.Extra["UserID"] = "Tester";
+    // Console.WriteLine(await client.GetProblemList(req));
+
+    // for (int i = 1; i <= 200; i++)
+    // {
+    //     var req = new SaveContestInfoRequest();
+    //     req.Contest = new ContestStruct
+    //     {
+    //         Content = "退群",
+    //         StartTime = 10008012,
+    //         EndTime = 10090032,
+    //         Writer = "艹",
+    //         Profile = "么",
+    //         Title = "啊",
+    //         Type = ContestTypeEnum.OJ,
+    //         Owner = new UserStruct
+    //         {
+    //             ID = 5,
+    //         },
+    //         Organization = new OrganizationStruct
+    //         {
+    //             ID = 1,
+    //         },
+    //         ID=3
+    //     };
+    //     req.ProblemList = new List<ContestProblemStruct>
+    //     {
+    //         new ContestProblemStruct
+    //         {
+    //             ID=2
+    //         },
+    //         new ContestProblemStruct
+    //         {
+    //             ID=5
+    //         }
+    //     };
+    //     req.Base = RPCTools.NewRootBase();
+    //     req.Base.Extra["ServiceID"] = "testService";
+    //     req.Base.Extra["UserID"] = "Tester";
+    //     Console.WriteLine(await client.SaveContestInfo(req));
+    // }
+
+
+    var req = new GetContestListRequest();
+    req.Cursor = 25;
     req.Limit = 25;
     req.Base = RPCTools.NewRootBase();
     req.Base.Extra["ServiceID"] = "testService";
     req.Base.Extra["UserID"] = "Tester";
-    Console.WriteLine(await client.GetProblemList(req));
+    Console.WriteLine(await client.GetContestList(req));
 }
 catch (Exception e)
 {
